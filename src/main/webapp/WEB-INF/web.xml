@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>BookServlet</servlet-name>
+  	<display-name>BookServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.cognixia.jump.maven.libraryproject.web.BookServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LibrarianServlet</servlet-name>
+  	<display-name>LibrarianServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.cognixia.jump.maven.libraryproject.web.LibrarianServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.cognixia.jump.maven.libraryproject.web.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CheckoutServlet</servlet-name>
+  	<display-name>CheckoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.cognixia.jump.maven.libraryproject.web.CheckoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>BookServlet</servlet-name>
+  	<url-pattern>/BookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LibrarianServlet</servlet-name>
+  	<url-pattern>/LibrarianServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CheckoutServlet</servlet-name>
+  	<url-pattern>/CheckoutServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

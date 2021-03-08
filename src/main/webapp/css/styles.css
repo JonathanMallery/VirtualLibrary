@@ -1,0 +1,91 @@
+@charset "ISO-8859-1";
+
+.login {
+	padding: 5% 30%;
+}
+.login body {font-family: Arial, Helvetica, sans-serif;}
+.login form {border: 3px solid #f1f1f1;}
+.login input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.login button {
+  background-color: #3f72af;
+  color: white;
+  padding: 14px 20px;
+  margin: 5% 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.login button:hover {
+  opacity: 0.8;
+}
+
+.login h2 {
+  text-align: center;
+}
+.login .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+.login img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+.login .container {
+  padding: 16px;
+}
+.login span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.login .radio-buttons {
+	display: flex;
+	justify-content: center;
+	padding: 1% 38%;
+}
+.btn.active{
+	background-color: #3f72af !important;
+}
+
+/** Librarian Page*/
+
+.librarian{
+	padding: 1% 20%;
+}
+
+.librarian h4, .librarian h2 {
+	font-weight: bold;
+	margin: 2% 0 0 0;
+}
+
+.librarian button, .patron button {
+	background-color: #3f72af;
+	  color: white;
+	  width: 150px;
+}
+
+/** Patron Page */
+.patron {
+	padding: 1% 20%;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  .login span.psw {
+     display: block;
+     float: none;
+  }
+  .login .cancelbtn {
+     width: 100%;
+  }
+  .login {
+  	padding: 3% 1%;
+  
+  }
+}
