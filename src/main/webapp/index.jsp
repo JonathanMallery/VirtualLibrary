@@ -30,6 +30,7 @@
     <input type="password" placeholder="Enter Password" name="psw" required>
     <button type="submit">Login</button>
   </div>
+  <button>Create Account</button>
 </form>
 		<HR WIDTH="100%" COLOR="#dbe2ef" SIZE="10px" style="height:10px">
 </div>
